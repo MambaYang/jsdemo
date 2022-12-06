@@ -22,6 +22,6 @@ function bar(b, c) {
 }
 
 let fn = bar.mybind(obj, "bb")
-fn("cc")
-// let newFn = new fn("cc")
-// console.log(newFn.a)
+// fn("cc");
+let newFn = new fn("cc")
+// console.log(newFn.a);
